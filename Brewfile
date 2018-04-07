@@ -9,6 +9,7 @@ brew carthage
 brew coreutils
 brew ctags
 brew erlang
+brew freetype
 brew gdbm
 brew gettext
 brew gmp
@@ -21,6 +22,8 @@ brew libffi
 brew libgcrypt
 brew libgpg-error
 brew libksba
+brew libmikmod
+brew libogg
 brew libpng
 brew libressl
 brew libtasn1
@@ -28,9 +31,11 @@ brew libtiff
 brew libtool
 brew libunistring
 brew libusb
+brew libvorbis
 brew libyaml
 brew mackup
 brew mas
+brew mercurial
 brew nettle
 brew node
 brew npth
@@ -39,13 +44,20 @@ brew openssl@1.1
 brew p11-kit
 brew pinentry
 brew pkg-config
+brew portmidi
 brew postgresql
 brew python
+brew python@2
 brew readline
+brew sdl
+brew sdl_image
+brew sdl_mixer
+brew sdl_ttf
 brew sphinx-doc
 brew sqlite
 brew swiftgen
 brew swiftlint
+brew webp
 brew wxmac
 brew xz
 brew yarn
@@ -56,6 +68,9 @@ cask dropbox
 cask fastlane
 cask google-chrome
 cask iterm2
+
+tap caskroom/fonts
+cask font-source-code-pro
 
 tap rcmdnk/file
 brew brew-file
