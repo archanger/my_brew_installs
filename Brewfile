@@ -80,7 +80,12 @@ brew ctls
 brew vapor
 
 # App Store applications
+appstore 866571115 Asset Catalog Creator (3.1)
+appstore 682658836 GarageBand (10.2.0)
+appstore 408981434 iMovie (10.1.9)
 appstore 409183694 Keynote (8.0)
 appstore 409203825 Numbers (5.0)
 appstore 409201541 Pages (7.0)
+appstore 1007457278 Realm Browser (3.0.1)
+appstore 425424353 The Unarchiver (3.11.5)
 appstore 497799835 Xcode (9.3)
