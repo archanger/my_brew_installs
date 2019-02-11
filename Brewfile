@@ -16,14 +16,19 @@ brew gmp
 brew gnupg
 brew gnutls
 brew icu4c
+brew ideviceinstaller
+brew ios-deploy
 brew jpeg
+brew lepton
 brew libassuan
 brew libffi
 brew libgcrypt
 brew libgpg-error
+brew libimobiledevice
 brew libksba
 brew libmikmod
 brew libogg
+brew libplist
 brew libpng
 brew libressl
 brew libtasn1
@@ -33,6 +38,7 @@ brew libunistring
 brew libusb
 brew libvorbis
 brew libyaml
+brew libzip
 brew mackup
 brew mas
 brew mercurial
@@ -49,6 +55,7 @@ brew postgresql
 brew python
 brew python@2
 brew readline
+brew ruby
 brew sdl
 brew sdl_image
 brew sdl_mixer
@@ -57,6 +64,7 @@ brew sphinx-doc
 brew sqlite
 brew swiftgen
 brew swiftlint
+brew usbmuxd
 brew webp
 brew wxmac
 brew xz
@@ -64,13 +72,8 @@ brew yarn
 brew zsh-syntax-highlighting
 
 tap caskroom/cask
-cask dropbox
-cask fastlane
-cask google-chrome
-cask iterm2
 
 tap caskroom/fonts
-cask font-source-code-pro
 
 tap rcmdnk/file
 brew brew-file
@@ -78,6 +81,13 @@ brew brew-file
 tap vapor/tap
 brew ctls
 brew vapor
+
+# Other Cask applications
+cask dropbox
+cask fastlane
+cask font-source-code-pro
+cask google-chrome
+cask iterm2
 
 # App Store applications
 appstore 409183694 Keynote (8.0)
