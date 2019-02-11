@@ -8,7 +8,6 @@ brew automake
 brew carthage
 brew coreutils
 brew ctags
-brew erlang
 brew freetype
 brew gdbm
 brew gettext
@@ -52,7 +51,6 @@ brew p11-kit
 brew pinentry
 brew pkg-config
 brew portmidi
-brew postgresql
 brew python
 brew python@2
 brew readline
@@ -88,12 +86,7 @@ tap caskroom/fonts
 tap rcmdnk/file
 brew brew-file
 
-tap vapor/tap
 brew ctls
-brew vapor
-
-# Other Cask applications
-cask iterm2
 
 # App Store applications
 appstore 409183694 Keynote (8.3)
