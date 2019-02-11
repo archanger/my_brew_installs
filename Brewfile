@@ -37,6 +37,7 @@ brew libtool
 brew libunistring
 brew libusb
 brew libvorbis
+brew libxml2
 brew libyaml
 brew libzip
 brew mackup
@@ -51,6 +52,7 @@ brew p11-kit
 brew pinentry
 brew pkg-config
 brew portmidi
+brew postgresql
 brew python
 brew python@2
 brew readline
@@ -70,25 +72,31 @@ brew xz
 brew yarn
 brew zsh-syntax-highlighting
 
-tap caskroom/cask
+tap homebrew/cask-fonts
+cask font-source-code-pro
+
+tap homebrew/cask
 cask dropbox
-cask fastlane
 cask google-chrome
+cask lepton
+
+tap caskroom/cask
+cask fastlane
 
 tap caskroom/fonts
 
 tap rcmdnk/file
 brew brew-file
 
+tap vapor/tap
 brew ctls
+brew vapor
 
 # Other Cask applications
-cask dropbox
-cask fastlane
-cask font-source-code-pro
+cask iterm2
 
 # App Store applications
-appstore 409183694 Keynote (8.0)
-appstore 409203825 Numbers (5.0)
-appstore 409201541 Pages (7.0)
-appstore 497799835 Xcode (9.3)
+appstore 409183694 Keynote (8.3)
+appstore 409203825 Numbers (5.3)
+appstore 409201541 Pages (7.3)
+appstore 497799835 Xcode (10.1)
