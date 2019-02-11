@@ -51,7 +51,6 @@ brew p11-kit
 brew pinentry
 brew pkg-config
 brew portmidi
-brew postgresql
 brew python
 brew python@2
 brew readline
@@ -72,22 +71,21 @@ brew yarn
 brew zsh-syntax-highlighting
 
 tap caskroom/cask
+cask dropbox
+cask fastlane
+cask google-chrome
 
 tap caskroom/fonts
 
 tap rcmdnk/file
 brew brew-file
 
-tap vapor/tap
 brew ctls
-brew vapor
 
 # Other Cask applications
 cask dropbox
 cask fastlane
 cask font-source-code-pro
-cask google-chrome
-cask iterm2
 
 # App Store applications
 appstore 409183694 Keynote (8.0)
