@@ -76,7 +76,6 @@ cask font-source-code-pro
 tap homebrew/cask
 cask dropbox
 cask google-chrome
-cask lepton
 
 tap caskroom/cask
 cask fastlane
@@ -86,7 +85,11 @@ tap caskroom/fonts
 tap rcmdnk/file
 brew brew-file
 
+# Other Homebrew packages
 brew ctls
+
+# Other Cask applications
+cask lepton
 
 # App Store applications
 appstore 409183694 Keynote (8.3)
