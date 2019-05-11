@@ -74,13 +74,15 @@ tap homebrew/cask-fonts
 cask font-source-code-pro
 
 tap homebrew/cask
-cask dropbox
 cask google-chrome
 
 tap caskroom/cask
 cask fastlane
 
 tap caskroom/fonts
+
+tap dart-lang/dart
+brew dart
 
 tap rcmdnk/file
 brew brew-file
@@ -90,9 +92,3 @@ brew ctls
 
 # Other Cask applications
 cask lepton
-
-# App Store applications
-appstore 409183694 Keynote (8.3)
-appstore 409203825 Numbers (5.3)
-appstore 409201541 Pages (7.3)
-appstore 497799835 Xcode (10.1)
