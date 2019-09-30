@@ -18,6 +18,7 @@ brew icu4c
 brew ideviceinstaller
 brew ios-deploy
 brew jpeg
+brew lcov
 brew lepton
 brew libassuan
 brew libffi
@@ -59,6 +60,7 @@ brew sdl
 brew sdl_image
 brew sdl_mixer
 brew sdl_ttf
+brew shellcheck
 brew sphinx-doc
 brew sqlite
 brew swiftgen
@@ -74,10 +76,11 @@ tap homebrew/cask-fonts
 cask font-source-code-pro
 
 tap homebrew/cask
-cask google-chrome
+cask fastlane
+cask lepton
 
 tap caskroom/cask
-cask fastlane
+cask google-chrome
 
 tap caskroom/fonts
 
@@ -89,6 +92,3 @@ brew brew-file
 
 # Other Homebrew packages
 brew ctls
-
-# Other Cask applications
-cask lepton
